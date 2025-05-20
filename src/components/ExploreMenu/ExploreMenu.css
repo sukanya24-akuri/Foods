@@ -1,0 +1,45 @@
+
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+/* .explore-menu-list{
+    scrollbar-width: none;
+} */
+.explore-menu-list img{
+    cursor: pointer;
+}
+.explore-menu-list-item .active{
+    border: 5px solid red;
+    padding: 2px;
+
+}
+ 
+.explore-menu-list-item p
+{
+    color:black;
+    cursor: pointer;
+}
+.scroll-icon{
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: black;
+    transition: color 0.2s;
+}
+.scroll-icon:hover{
+    color: blue;
+}
+.explore-menu hr{
+    margin: 25px 2px;
+    height: 4px;
+    background-color: black;
+    border:none;
+}
+
+.explore-menu-list-item .active{
+    border: 3px ridge red;
+    padding: 5px;
+}
+.explore-menu .ex{
+    font-size:xx-large ;
+}

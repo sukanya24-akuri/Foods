@@ -1,0 +1,9 @@
+.login-container{
+    background-image: url("../../assets/login.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

@@ -1,0 +1,24 @@
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+     margin-top: 9px;
+   
+}
+
+.custom-input {
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid #e9ecef;
+   
+}
+.contact-container{
+    background-image: url("../../assets/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 0px;
+   
+}

@@ -1,0 +1,21 @@
+/* .logo{
+    margin-right: 25px;
+}
+.menubar-left
+{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    
+
+} */
+.fullscreen-navbar {
+    width: 100vw;
+    
+  }
+ .active{
+    color: tomato !important;
+ }
+dropdown-menu li{
+cursor: pointer;
+}
