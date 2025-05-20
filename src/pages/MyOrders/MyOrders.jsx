@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import {StoreContext} from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
-import "./Myorders.css";
+import "./MyOrders.css";
 
 const MyOrders = () => {
    const {token} =useContext(StoreContext);
