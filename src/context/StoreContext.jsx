@@ -3,6 +3,7 @@ import { fetchFoodList } from "../Service/Service";
 import {
   addTocart,
   getcartItems,
+  removeFromCartApi,
   removeQtyFromCart,
 } from "../Service/CartService";
 
@@ -26,16 +27,16 @@ export const StoreContextProvider = (props) => {
   };
 
   const removeFromCart = async (foodId) => {
-    //try {
-      //await removeFromCartApi(token);
+    try {
+      await removeFromCartApi(foodId,token);
       setQuantities((prev) => {
         const updatedQuantities = { ...prev };
         delete updatedQuantities[foodId];
         return updatedQuantities;
        });
-    // } catch (error) {
-    //   console.error("Failed to remove item from cart:", error);
-    // }
+     } catch (error) {
+       console.error("Failed to remove item from cart:", error);
+    }
   };
 
   const loadCartData = async (token) => {

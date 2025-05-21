@@ -37,13 +37,14 @@ export const getcartItems = async (token) => {
   }
 };
 
-// export const removeFromCartApi = async ( token) => {
-//   try {
-//     await axios.delete(Api_url, {
-//       headers: { 'Authorization': `Bearer ${token}` },
-//     });
-//   } catch (error) {
-//     console.error("Error while removing item from cart", error);
-//   }
-// };
+export const removeFromCartApi = async ( foodId,token) => {
+  try {
+    await axios.delete(Api_url+"/delete/item", {
+      headers: { 'Authorization': `Bearer ${token}` },
+      params: { foodId },
+    });
+  } catch (error) {
+    console.error("Error while removing item from cart entire", error);
+  }
+};
 
